@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Portfolio",
+    "desc": "This project integrates Docker for containerizing the application and implements a CI/CD pipeline to automate building, testing, and deployment, ensuring consistent environments and faster delivery cycles.",
+    "image": "https://as2.ftcdn.net/v2/jpg/02/23/82/27/1000_F_223822764_zvh4aFAm13RStp3aGXyJRHff6UBNEUN3.jpg",
+    "category": "Docker, Jenkins",
+    "links": {
+      "view": "https://github.com/Lovekumar-Creative/Devops-Project",
+      "code": "https://github.com/Lovekumar-Creative/Devops-Project"
+    }
+  },
+  {
+    "name": "Crack Detection Algorithm",
+    "desc": "A crack detection algorithm is a computer vision-based method used to identify cracks in surfaces like roads and walls. It involves image acquisition, preprocessing (e.g., noise removal), segmentation (to isolate cracks), feature extraction (like crack length/width), and classification using traditional or deep learning models (e.g., CNNs). This helps automate infrastructure inspection and supports timely maintenance.",
+    "image": "notystackandroid",
+    "category": "Computer Vision",
+    "links": {
+      "view": "https://github.com/Lovekumar-Creative/Computer-Vision-Project-and-Assignment",
+      "code": "https://github.com/Lovekumar-Creative/Computer-Vision-Project-and-Assignment"
+    }
+  },
+  {
+    "name": "SPPU Engg Prep",
+    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
+    "image": "sppuprepandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/sppu-prep-android"
+    }
+  },
+  {
+    "name": "NewsBox Android",
+    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
+    "image": "newsboxandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/newsbox-android"
+    }
+  },
+  {
+    "name": "Weatherly Android",
+    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
+    "image": "weatherlyandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/weatherly-android"
+    }
+  },
+  {
+    "name": "Ecommerse System",
+    "desc": "This C++ program uses a priority_queue with a custom comparator to efficiently process e-commerce orders by prioritizing higher priority levels and, in case of a tie, selecting the oldest order based on timestamp.",
+    "image": "Ecommersemern",
+    "category": "C++, STL",
+    "links": {
+      "view": "https://github.com/Lovekumar-Creative/Projects-in-programming-Language/blob/main/Ecommerse.cpp",
+      "code": "https://github.com/Lovekumar-Creative/Projects-in-programming-Language/blob/main/Ecommerse.cpp"
+    }
+  },
+  {
+    "name": "Friend Recommendation System",
+    "desc": "This C++ program implements a friend recommendation system using STL by managing friendships with unordered_map and identifying mutual friends through hashing and set intersection.",
+    "image": "friendRecommendationSystemmern",
+    "category": "C++, STL",
+    "links": {
+      "view": "https://github.com/Lovekumar-Creative/Projects-in-programming-Language/blob/main/FriendRecommendationSystem.cpp",
+      "code": "https://github.com/Lovekumar-Creative/Projects-in-programming-Language/blob/main/FriendRecommendationSystem.cpp"
+    }
+  }
+]

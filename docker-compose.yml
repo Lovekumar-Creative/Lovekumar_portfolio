@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: portfolio_website
+    restart: always
+    volumes:
+      - ./Portfolio-Website-main:/usr/share/nginx/html
