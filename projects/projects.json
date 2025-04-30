@@ -2,7 +2,7 @@
   {
     "name": "Portfolio",
     "desc": "This project integrates Docker for containerizing the application and implements a CI/CD pipeline to automate building, testing, and deployment, ensuring consistent environments and faster delivery cycles.",
-    "image": "https://as2.ftcdn.net/v2/jpg/02/23/82/27/1000_F_223822764_zvh4aFAm13RStp3aGXyJRHff6UBNEUN3.jpg",
+    "image": "sppuprepandroid",
     "category": "Docker, Jenkins",
     "links": {
       "view": "https://github.com/Lovekumar-Creative/Devops-Project",
