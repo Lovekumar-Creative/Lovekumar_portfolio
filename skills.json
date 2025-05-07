@@ -4,71 +4,97 @@
         "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
     },
     {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python.png"
+    },
+    {
         "name": "Java",
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python.png"
+        "name": "VS Code",
+        "icon": "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+    },
+    {
+        "name": "Pycharm",
+        "icon": "https://img.icons8.com/color/48/000000/pycharm.png"
+    },
+    {
+        "name": "IntelliJ IDEA",
+        "icon": "https://img.icons8.com/color/48/000000/intellij-idea.png"
+    },
+    {
+        "name": "R-Studio",
+        "icon": "https://img.icons8.com/?size=48&id=CLvQeiwFpit4&format=png&color=000000"
+    },
+    {
+        "name": "Jupyter",
+        "icon": "https://img.icons8.com/?size=48&id=J0SgMWzAxqFj&format=png&color=000000"
     },
     {
         "name": "Notebook",
         "icon": "https://img.icons8.com/color/48/000000/google-colab.png"
     },
     {
-        "name": "OpenCV",
-        "icon": "https://img.icons8.com/color/48/000000/opencv.png"
-    },
-    {
-        "name": "TensorFlow",
-        "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"
+        "name": "NumPy",
+        "icon": "https://img.icons8.com/color/48/000000/numpy.png"
     },
     {
         "name": "Pandas",
         "icon": "https://img.icons8.com/color/48/000000/pandas.png"
     },
     {
-        "name": "NumPy",
-        "icon": "https://img.icons8.com/color/48/000000/numpy.png"
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"
     },
     {
-        "name": "AWS ",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
-    {
-        "name": "Kubernetes",
-        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
-    },
-    {
-        "name": "Docker",
-        "icon": "https://img.icons8.com/color/48/000000/docker.png"
-    },
-    {
-        "name": "Jenkins",
-        "icon": "https://img.icons8.com/color/48/000000/jenkins.png"
-    },
-    {
-        "name": "Github",
-        "icon": "https://img.icons8.com/color/48/000000/github.png"
+        "name": "OpenCV",
+        "icon": "https://img.icons8.com/color/48/000000/opencv.png"
     },
     {
         "name": "Git",
         "icon": "https://img.icons8.com/color/48/000000/git.png"
     },
     {
-        "name": "Javascript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript.png"
+        "name": "Github",
+        "icon": "https://img.icons8.com/color/48/000000/github.png"
     },
     {
-        "name": "CSS",
-        "icon": "https://img.icons8.com/color/48/000000/css.png"
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
+    },
+    {
+        "name": "Jenkins",
+        "icon": "https://img.icons8.com/color/48/000000/jenkins.png"
     },
     {
         "name": "HTML",
         "icon": "https://img.icons8.com/color/48/000000/html.png"
     },
     {
-        "name": "VS Code",
-        "icon": "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+        "name": "CSS",
+        "icon": "https://img.icons8.com/color/48/000000/css.png"
+    },
+    {
+        "name": "Javascript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript.png"
+    },
+    {
+        "name": "Angular",
+        "icon": "https://img.icons8.com/color/48/000000/angularjs.png"
+    },
+    {
+        "name": "Spring-boot",
+        "icon": "https://img.icons8.com/?size=48&id=90519&format=png&color=000000"
+    },
+    {
+        "name": "AWS ",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
     }
+    
+
 ]
