@@ -44,6 +44,10 @@
         "icon": "https://img.icons8.com/color/48/000000/pandas.png"
     },
     {
+        "name": "sk-learn",
+        "icon": "https://gpulab.io/images/lib_scikit-learn_small.png"
+    },
+    {
         "name": "TensorFlow",
         "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"
     },
@@ -88,7 +92,7 @@
         "icon": "https://img.icons8.com/color/48/000000/angularjs.png"
     },
     {
-        "name": "Spring-boot",
+        "name": "Springboot",
         "icon": "https://img.icons8.com/?size=48&id=90519&format=png&color=000000"
     },
     {

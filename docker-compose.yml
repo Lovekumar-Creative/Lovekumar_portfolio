@@ -4,8 +4,8 @@ services:
   web:
     build: .
     ports:
-      - "8080:80"
-    container_name: portfolio_website
+      - "8000:80"
+    container_name: Love_portfolio
     restart: always
     volumes:
-      - ./Portfolio-Website-main:/usr/share/nginx/html
+      - ./portfolio_new:/usr/share/nginx/html
