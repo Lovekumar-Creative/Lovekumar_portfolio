@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="MachineLearningBanner.png" alt="Machine Learning Banner" />
+  <img src="assets/images/projects/Screenshot (246).png" alt="Front Page" />
 </p>
