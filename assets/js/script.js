@@ -37,11 +37,11 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
+   // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+        emailjs.sendForm('service_3bovcm9', 'template_0eru9p9', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
@@ -55,6 +55,7 @@ $(document).ready(function () {
     // <!-- emailjs to mail contact form data -->
 
 });
+
 
 document.addEventListener('visibilitychange',
     function () {
