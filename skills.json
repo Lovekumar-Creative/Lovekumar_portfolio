@@ -24,10 +24,6 @@
         "icon": "https://img.icons8.com/color/48/000000/intellij-idea.png"
     },
     {
-        "name": "R-Studio",
-        "icon": "https://img.icons8.com/?size=48&id=CLvQeiwFpit4&format=png&color=000000"
-    },
-    {
         "name": "Jupyter",
         "icon": "https://img.icons8.com/?size=48&id=J0SgMWzAxqFj&format=png&color=000000"
     },
@@ -86,19 +82,6 @@
     {
         "name": "Javascript",
         "icon": "https://img.icons8.com/color/48/000000/javascript.png"
-    },
-    {
-        "name": "Angular",
-        "icon": "https://img.icons8.com/color/48/000000/angularjs.png"
-    },
-    {
-        "name": "Springboot",
-        "icon": "https://img.icons8.com/?size=48&id=90519&format=png&color=000000"
-    },
-    {
-        "name": "AWS ",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
     }
-    
 
 ]
