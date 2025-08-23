@@ -33,10 +33,20 @@
     "name": "Black Friday Sales",
     "desc": "Performed data analysis and machine learning on Black Friday sales to reveal customer insights and predict purchase trends.",
     "image": "Black_Friday",
-    "category": "Supervised Learning(Linear Regression)",
+    "category": "Data Analysis",
     "links": {
       "view": "NA",
       "code": "https://github.com/Lovekumar-Creative/Data-Analysis/blob/main/Black_Friday.ipynb"
+    }
+  },
+  {
+    "name": "Heart Disease Prediction",
+    "desc": "Conducted data analysis and machine learning on heart disease dataset to predict patient outcomes and support healthcare insights.",
+    "image": "Heart_Disease",
+    "category": "Data Analysis",
+    "links": {
+      "view": "NA",
+      "code": "https://github.com/Lovekumar-Creative/Data-Analysis/blob/main/Heart_Disease.ipynb"
     }
   },
   {
