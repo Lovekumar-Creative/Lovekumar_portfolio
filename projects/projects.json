@@ -30,6 +30,16 @@
     }
   },
   {
+    "name": "Black Friday Sales",
+    "desc": "Performed data analysis and machine learning on Black Friday sales to reveal customer insights and predict purchase trends.",
+    "image": "Black_Friday",
+    "category": "Supervised Learning(Linear Regression)",
+    "links": {
+      "view": "NA",
+      "code": "https://github.com/Lovekumar-Creative/Data-Analysis/blob/main/Black_Friday.ipynb"
+    }
+  },
+  {
     "name": "Student Database Mangement System",
     "desc": "Designed a student management system using Binary Search Tree in C++ to add, delete, search, and display students based on roll numbers.",
     "image": "SDMS",
