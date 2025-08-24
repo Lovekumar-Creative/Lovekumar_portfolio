@@ -31,12 +31,12 @@
   },
   {
     "name": "Sugarcane Production",
-    "desc": "Performed data analysis and machine learning on Black Friday sales to reveal customer insights and predict purchase trends.",
+    "desc": "This project analyzes global and country-wise sugarcane production trends to identify patterns, averages, and growth insights.",
     "image": "sugarcane_production",
     "category": "Data Analysis",
     "links": {
-      "view": "NA",
-      "code": "https://github.com/Lovekumar-Creative/Data-Analysis/blob/main/Black_Friday.ipynb"
+      "view": "https://sugarcane-prouction-analysis.streamlit.app/",
+      "code": "https://github.com/Lovekumar-Creative/SUGARCANE-PRODUCTION-ANALYSIS/blob/main/sugarcane_Production.ipynb"
     }
   },
   {
