@@ -41,67 +41,59 @@ function getProjects() {
 
 
 function showProjects(projects) {
-        let projectsContainer = document.querySelector(".work .box-container");
+    let projectsContainer = document.querySelector(".work .box-container");
+    let allProjects = projects;
+
+    function renderProjects(filteredProjects) {
         let projectsHTML = "";
-        projects.forEach(project => {
-                // Map type to filter class, fallback to category for non-ML/DS/CV/NLP
-                let typeClass = project.type ? project.type : "other";
-                // Add .ds, .ml, .cv, .nlp classes for filtering
-                let filterClass = typeClass ? typeClass : "other";
-                projectsHTML += `
-                <div class="grid-item ${filterClass}">
-                <div class="box tilt" style="width: 380px; margin: 1rem">
-            <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-            <div class="content">
-                <div class="tag">
-                <h3>${project.name}</h3>
-                </div>
-                <div class="desc">
-                    <p>${project.desc}</p>
-                    <div class="btns">
-                        <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                        <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-                    </div>
-                </div>
+        filteredProjects.forEach(project => {
+            projectsHTML += `
+            <div class="grid-item ${project.type}">
+            <div class="box tilt" style="width: 380px; margin: 1rem">
+          <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+          <div class="content">
+            <div class="tag">
+            <h3>${project.name}</h3>
             </div>
+            <div class="desc">
+              <p>${project.desc}</p>
+              <div class="btns">
+                <a href="${project.links.view || '#'}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                <a href="${project.links.code || '#'}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
         </div>`
         });
         projectsContainer.innerHTML = projectsHTML;
+    }
 
-        // vanilla tilt.js
-        // VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        //     max: 20,
-        // });
-        // // vanilla tilt.js  
+    // Initial render: show all projects
+    renderProjects(allProjects);
 
-        // /* ===== SCROLL REVEAL ANIMATION ===== */
-        // const srtop = ScrollReveal({
-        //     origin: 'bottom',
-        //     distance: '80px',
-        //     duration: 1000,
-        //     reset: true
-        // });
+    // Button filter logic
+    $(".button-group").on("click", "button", function () {
+        $(".button-group").find(".is-checked").removeClass("is-checked");
+        $(this).addClass("is-checked");
+        var filterValue = $(this).attr("data-filter");
 
-        // /* SCROLL PROJECTS */
-        // srtop.reveal('.work .box', { interval: 200 });
-
-        // isotope filter products
-        var $grid = $('.box-container').isotope({
-                itemSelector: '.grid-item',
-                layoutMode: 'fitRows',
-                masonry: {
-                        columnWidth: 200
-                }
-        });
-
-        // filter items on button click
-        $('.button-group').on('click', 'button', function () {
-                $('.button-group').find('.is-checked').removeClass('is-checked');
-                $(this).addClass('is-checked');
-                var filterValue = $(this).attr('data-filter');
-                $grid.isotope({ filter: filterValue });
-        });
+        let filtered;
+        if (filterValue === "*") {
+            filtered = allProjects;
+        } else if (filterValue === ".ml") {
+            filtered = allProjects.filter(p => p.type === "ml");
+        } else if (filterValue === ".analysis") {
+            filtered = allProjects.filter(p => p.type === "ds");
+        } else if (filterValue === ".nlp") {
+            filtered = allProjects.filter(p => p.type === "nlp");
+        } else if (filterValue === ".cv") {
+            filtered = allProjects.filter(p => p.type === "cv" || p.category.toLowerCase().includes("computer vision"));
+        } else {
+            filtered = allProjects;
+        }
+        renderProjects(filtered);
+    });
 }
 
 getProjects().then(data => {
