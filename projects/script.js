@@ -49,7 +49,7 @@ function showProjects(projects) {
         filteredProjects.forEach(project => {
             projectsHTML += `
             <div class="grid-item ${project.type}">
-            <div class="box tilt" style="width: 380px; margin: 1rem">
+            <div class="box tilt" style="width: 370px; margin: 0.8rem">
           <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
           <div class="content">
             <div class="tag">
