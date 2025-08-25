@@ -83,7 +83,7 @@ function showProjects(projects) {
             filtered = allProjects;
         } else if (filterValue === ".ml") {
             filtered = allProjects.filter(p => p.type === "ml");
-        } else if (filterValue === ".analysis") {
+        } else if (filterValue === ".ds") {
             filtered = allProjects.filter(p => p.type === "ds");
         } else if (filterValue === ".nlp") {
             filtered = allProjects.filter(p => p.type === "nlp");
