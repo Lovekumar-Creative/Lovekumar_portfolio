@@ -1,8 +1,8 @@
 [
   {
     "name": "Sentiment Analysis",
-    "desc": "Engineered a sentiment analysis model in Python by implementing NLP preprocessing (tokenization, stopword removal, stemming), TF-IDF feature extraction, and Logistic Regression for tweet classification.",
-    "image": "sentimentanalyis",
+    "desc": "Engineered a sentiment analysis model in Python by implementing NLP preprocessing, TF-IDF feature extraction, and Logistic Regression for tweet classification.",
+    "image": "sentiment_analysis",
     "type":"nlp",
     "category": "NLP and ML",
     "links": {
