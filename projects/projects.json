@@ -1,5 +1,16 @@
 [
   {
+    "name": "Sentiment Analysis",
+    "desc": "Engineered a sentiment analysis model in Python by implementing NLP preprocessing (tokenization, stopword removal, stemming), TF-IDF feature extraction, and Logistic Regression for tweet classification.",
+    "image": "sentimentanalyis",
+    "type":"nlp",
+    "category": "NLP and ML",
+    "links": {
+      "view": "https://sentiment-analysis-nlp-project.streamlit.app/",
+      "code": "https://github.com/Lovekumar-Creative/Natural-Language-Processing/tree/main/Sentiment%20Analysis%20Project"
+    }
+  },
+  {
     "name": "Customer Segmentation",
     "desc": "Performed customer segmentation using K-Means clustering in Python by analyzing purchasing behavior and visualizing clusters for actionable insights.",
     "image": "customersegmentation",
